@@ -17,6 +17,8 @@ First public release.
 - The original tool's commands: `init`, `check`, `conflicts`, `build`,
   `bodyslide`, `deploy`, `undeploy`, `restore`, `plugins`, `discover`, `logs`,
   `probe`, `sample`, `game-files`, `dump-eboot`, `ftp-check` and `status`.
+- `deploy` looks for `ose.prx` in `goldhen-plugins/` by default (next to
+  `afr.prx`); `[goldhen] ose_local` overrides it.
 - OSE Scripts generated during build (`[goldhen] ose_local`).
 - FTP upload of only what changed, with a manifest and resume of an
   interrupted deploy.

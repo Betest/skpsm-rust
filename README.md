@@ -32,7 +32,7 @@ Settings. The `skpsm` CLI is bundled too.
 
 SHA-256 (v0.1.0):
 
-`41da8d1611b0ba4e0d0fae1798cc1b42da8ddcdbee85e6e3382b52635825d0eb`
+`041f57a0dcaf548b8864413b2f8864fbbba2f9e651dca6cb75762172cc8fe395`
 
 ## OSE plugin
 
