@@ -1,0 +1,10 @@
+SKPSM
+Copyright 2026 SKPSM contributors
+
+This product includes software developed by the SKPSM project
+(https://github.com/Betest/skpsm-rust).
+
+The SKPSM tool downloads the GoldHEN plugins (afr.prx and game_patch.prx)
+at runtime from the GoldHEN Plugins Repository when the user runs
+`skpsm plugins`; those files are GPL-3.0 licensed and are not part of
+this distribution.
