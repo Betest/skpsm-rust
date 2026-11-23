@@ -55,6 +55,17 @@ Three pieces stand in for the PC tools mods depend on:
 | **OSB** — Orbis Scaleform Bridge | SKSE's Scaleform/UI layer | Part of OSE: the Flash bridge that UI mods like SkyUI rely on. |
 | **OUP** — Orbis Unofficial Patch | USSEP | A progressive, generated patch. When a mod needs records from a master that cannot be installed whole (USSEP, NoFloatingFog, …), the build generates a plugin named after that master with only the records your mods use — for example a minimal `Unofficial Skyrim Special Edition Patch.esp` with the 16 records Northbourne NPCs needs out of USSEP's ~59,000. It grows as you add mods. |
 
+## Known issues
+
+- **Skyrim AIO + hair physics**: this combination can crash the game on load. If it
+  happens, disable that OSE step once, from your PC:
+
+  ```
+  curl -T /dev/null ftp://IP-PS4:2121/data/ose/hair_off
+  ```
+
+  Delete the file from the console to turn hair physics back on.
+
 ## Website
 
 Documentation and email updates: <https://skpsm.it-bridge.workers.dev>
