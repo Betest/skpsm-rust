@@ -9,6 +9,12 @@ uploads it over FTP, all from a desktop app or the command line.
 - **Skyrim Special Edition** (version 1.32) — supported
 - RE4 / RE3 — in development · RE2 and Cyberpunk 2077 — planned
 
+<div align="center">
+  <img src="docs/screenshots/skpsm-1.png" width="32%" alt="SKPSM screenshot 1">
+  <img src="docs/screenshots/skpsm-1b.png" width="32%" alt="SKPSM screenshot 2">
+  <img src="docs/screenshots/skpsm-2.png" width="32%" alt="SKPSM screenshot 3">
+</div>
+
 ## Downloads
 
 | Platform | File | Notes |
