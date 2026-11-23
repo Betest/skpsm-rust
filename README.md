@@ -45,6 +45,16 @@ ose_local` in `config.ini` points to your local copy. Built with the OpenOrbis
 toolchain and the GoldHEN Plugins SDK. GPL-3.0; the source is attached to the
 release.
 
+## How PC dependencies work on PS4
+
+Three pieces stand in for the PC tools mods depend on:
+
+| PS4 piece | PC counterpart | What it does |
+|-----------|----------------|--------------|
+| **OSE** — Orbis Script Extender | SKSE | Runs the Papyrus scripts of mods that need SKSE, plus the hair and body physics. Ships as `ose.prx` (see above). |
+| **OSB** — Orbis Scaleform Bridge | SKSE's Scaleform/UI layer | Part of OSE: the Flash bridge that UI mods like SkyUI rely on. |
+| **OUP** — Orbis Unofficial Patch | USSEP | A progressive, generated patch. When a mod needs records from a master that cannot be installed whole (USSEP, NoFloatingFog, …), the build generates a plugin named after that master with only the records your mods use — for example a minimal `Unofficial Skyrim Special Edition Patch.esp` with the 16 records Northbourne NPCs needs out of USSEP's ~59,000. It grows as you add mods. |
+
 ## Website
 
 Documentation and email updates: <https://skpsm.it-bridge.workers.dev>
